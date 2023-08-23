@@ -1,0 +1,6 @@
+{
+  "users":
+  [{"username":"admin","password":"admin"},{"username":"admin2","password":"admin"}],
+  "musics":
+  [{"music_title":"Shy","singer":"NewJeans"},{"music_title":"Ditto","singer":"NewJeans"}]
+}
