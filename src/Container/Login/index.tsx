@@ -76,7 +76,7 @@ export const Login = () => {
     <div className='login--section'>
         <div className='login--container'>
             {errors.username && <p className='error-alert'>{errors.username.message}</p>} 
-            <h2>LOGIN</h2>
+            <h2>LOGIN2</h2>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <input placeholder="Username" type='text'{...register("username", { required: true,maxLength: 0 })}/>
                  {errors.username?.type === "required" && (
